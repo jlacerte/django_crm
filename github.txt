@@ -1,0 +1,11 @@
+git config --global user.name "jlacerte"
+git config --global user.email "justinlacerte@yahoo.ca"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+git add .
+git commit -am "fist commit"
+git remote add origin https://github.com/jlacerte/django_crm.git
+git branch -M main
+git push -u origin main
+
